@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var number int
-	number = 100
-	fmt.Println(number + 30)
+	greeting := "型推論Hello Paiza"
+	fmt.Println(greeting)
 }
