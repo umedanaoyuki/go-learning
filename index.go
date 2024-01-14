@@ -26,4 +26,9 @@ func main() {
 		fmt.Println("welcome")
 	}
 
+	if number <= 100 {
+		// 整数を文字列と連結するには、strconv.Itoa()で変換してから、+で連結します。
+		fmt.Println(strconv.Itoa(number) + "は10に等しい")
+	}
+
 }
