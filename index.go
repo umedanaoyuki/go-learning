@@ -31,4 +31,12 @@ func main() {
 		fmt.Println(strconv.Itoa(number) + "は10に等しい")
 	}
 
+	greeting := "Hello Paiza"
+
+	// for文
+	for i := 0; i < 3; i++ {
+		fmt.Println(greeting)
+	}
+		
+
 }
