@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	// 入力タブから文字列データを受け取る
 	sc := bufio.NewScanner(os.Stdin)
 
 	sc.Scan()
