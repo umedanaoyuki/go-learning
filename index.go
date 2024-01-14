@@ -20,4 +20,10 @@ func main() {
 	sc.Scan()
 	number, _ := strconv.Atoi(sc.Text())
 	fmt.Println(number)
+
+	// 条件文
+	if name == "go" {
+		fmt.Println("welcome")
+	}
+
 }
