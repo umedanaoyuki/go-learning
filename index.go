@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	
+
 	sc := bufio.NewScanner(os.Stdin)
 
 	// 入力タブから文字列データを受け取る
@@ -18,25 +18,13 @@ func main() {
 
 	// 入力タブから数字を受け取る
 	sc.Scan()
-	number, _ := strconv.Atoi(sc.Text())
-	fmt.Println(number)
+	count, _ := strconv.Atoi(sc.Text())
+	fmt.Println(count)
 
-	// 条件文
-	if name == "go" {
-		fmt.Println("welcome")
-	}
+	greeting := "Hello World"
 
-	if number <= 100 {
-		// 整数を文字列と連結するには、strconv.Itoa()で変換してから、+で連結します。
-		fmt.Println(strconv.Itoa(number) + "は10に等しい")
-	}
-
-	greeting := "Hello Paiza"
-
-	// for文
-	for i := 0; i < 3; i++ {
+	for i := 0; i < count; i++ {
 		fmt.Println(greeting)
 	}
-		
 
 }
